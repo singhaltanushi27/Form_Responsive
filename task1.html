@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Task1.css">
+    <title>Document</title>
+    <script src="Task1.js"></script>
+</head>
+<body >
+<div class= "flex-container" id="wrapper">
+    <div class="row">
+        <div class="column" id="card1">
+          <h2>Email</h2>
+          <i class="material-icons" style="font-size:48px;color:black;">email</i>
+          <!--<img src="C:\Users\lenovo\Desktop\Email.png" style="width: 80px; height: 80px;">-->
+          <h5>xyz@website.com <br>support@website.com</h5>
+        </div>
+        <div class="column" id="card2">
+          <h2>Address</h2>
+          <i class="material-icons">location_on</i>
+          <!--<img src="C:\Users\lenovo\Desktop\Location.png" style="width: 80px; height: 80px;">-->
+          <h5>ithium tower sector62<br>near Electronic city Metro</h5>
+        </div>
+        <div class="column" id="card3">
+          <h2>Phone</h2>
+          <i class="material-icons" style="font-size:48px;color:saddlebrown">call</i>
+          <h5>+91789654315 <br>+91567890789</h5>
+        </div>
+      </div>
+      <form action="/action_page.php">
+          <div class="form-row">
+            <input type="text" id="txtbox1" placeholder="Name"  required>
+            <input type="text" id="txtbox2" placeholder="Email"  required>
+          </div>
+          <div class="form-row">
+            <input type="text" id="txtbox4" placeholder="Phone"  required>
+            <input type="text"  id="txtbox5" placeholder="Subject"  required>
+          </div>
+          <div class="form-row">
+            <textarea type="text" id="txtbox6" placeholder="Message" rows="10" cols="1000" required></textarea>
+          </div>
+          <div class="wrapper"> 
+            <input class="button" type="submit" value="Submit" onclick="show_alert();">
+          </div>  
+      </form>
+</div>
+</body>
+</html>
